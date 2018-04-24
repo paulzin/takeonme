@@ -57,9 +57,6 @@ function mousePressed() {
 	playNote();
 }
 
-function touchStarted() {
-}
-
 function playNote() {
 	var midiValue = scaleArray[note];
 	var freqValue = midiToFreq(midiValue);
