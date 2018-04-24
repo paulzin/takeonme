@@ -53,11 +53,9 @@ function keyPressed() {
 
 function mousePressed() {
 	playNote();
-	return false;
 }
 
 function touchStarted() {
-  	return false;
 }
 
 function playNote() {
