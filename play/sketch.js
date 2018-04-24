@@ -37,6 +37,8 @@ function draw() {
 	textSize(16);
 	fill("#B2DFDB");
 	text('press\nany\nkey\nor\ntouch\nthe\nscreen', 10, 65);
+	
+	text('note: ' + note, 10, 65);
 
 	if (mouseIsPressed || keyIsPressed) {
 		background("#FFCC80");
