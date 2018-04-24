@@ -53,8 +53,19 @@ function keyPressed() {
 	playNote();
 }
 
+var released = true;
+
 function mousePressed() {
+	if (!released) {
+		return;
+	}
+	released = false;
 	playNote();
+}
+
+function mouseReleased() {
+	released = true;
+	return false;
 }
 
 function playNote() {
