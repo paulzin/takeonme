@@ -51,7 +51,7 @@ function keyPressed() {
 	playNote();
 }
 
-function mouseClicked() {
+function mousePressed() {
 	playNote();
 }
 
